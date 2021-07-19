@@ -1,0 +1,70 @@
+#heading{
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    padding: 15px;
+    font-family: 'Sigmar One', cursive;
+}
+#button_1{
+    color: white;
+    border: none;
+    background: transparent;
+    float: right;
+}
+#status{
+    color: white;
+    background: red;
+    border: none;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: 'Sigmar One',cursive;
+}
+#play{
+    color: white;
+    background: green;
+    border: none;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: 'Sigmar One',cursive;
+}
+::-webkit-scrollbar {
+    width: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: red; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(184, 1, 1); 
+  }
+
+#footer{
+  background-color: black;
+  font-size: 15px;  
+  width: 100%;
+  top: 690px;
+  padding: 5px;
+  color: white;
+  position: fixed;
+}
+#heading_modal{
+  font-size: 20px;
+  font-family: 'Sigmar One',cursive;
+}
+.modal-dialog{
+  width: 90%;
+}
+.instruction-img{
+  width: 45%;
+  height: 350px;
+}
+video{
+  background-image: url("game_console.png");
+  background-size: cover;
+  padding:50px;
+}
